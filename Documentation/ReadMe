@@ -1,0 +1,85 @@
+Name - Mathan Rajamanickam
+Employee ID - 2318517
+Role - CSD Trainee
+Cohort Code - CSDQEA24QE002
+
+Find the Interest Amount for current year
+Problem Statement : Find the Interest Amount for current year
+1. Buying a  car of 15 Lac
+2. Interest rate of 9.5%
+3. Tenure should be 1 year.
+Display the interest amount & principal amount of first month.
+(Suggested Site: emicalculator.net  / HDFCbank.com etc. however you are free to use any other legitimate site)
+
+Detailed Description: Hackathon Ideas
+Requirement 1 -- Find the EMI for Car with price of 15 Lac, Interest rate of 9.5% & Tenure 1 year; Display the interest amount & principal amount for one month
+Requirement 2 -- From Menu, pick Home Loan EMI Calculator, fill relevant details & extract all the data from  year on year table & store in excel;
+Requirement 3 -- From Menu, pick Loan Calculator and under EMI calculator, do all UI check for text box & scales; change the Loan tenure for year & month,check the change in scale; Re-use the same validation for Loan Amount Calculator & Loan Tenure Calculator
+(Suggested Site: emicalculator.net  however you are free to use any other legitimate site)
+
+appUrl - https://emicalculator.net/
+
+***Test Scenarios and Test Cases For the above Requirement are***
+
+---
+For Home Page   
+Scenario 1 : Find the EMI for Car  
+1. **TestCase_01**: Entering Required Values In Home Page
+2. **TestCase_02**: Displaying The EMI Payment Table
+---
+
+---
+For Home Loan EMI Calculator Page
+Scenario 2 : Extracting all the data from  year on year table in Home Loan EMI page
+3. **TestCase_03**: Storing The Year Table In Excel
+---
+
+---
+For Loan Calculator Page
+Scenario 3 : Validating EMI Calculator UI
+4.  **TestCase_04**: EMICalculator - Validating Loan Amount TextBox and Slider
+5.  **TestCase_05**: EMICalculator - Scale Change For Loan Amount TextBox And Slider
+6.  **TestCase_06**: EMICalculator - Validating Interest Rate TextBox and Slider
+7.  **TestCase_07**: EMICalculator - Scale Change For Interest Rate TextBox And Slider
+8.  **TestCase_08**: EMICalculator - Validating Loan Tenure TextBox and Slider
+9.  **TestCase_09**: EMICalculator - Scale Change For Loan Tenure TextBox And Slider
+10. **TestCase_10**: EMICalculator - Validating Fees And Charges TextBox and Slider
+11. **TestCase_11**: EMICalculator - Validation For Year And Month Option
+12. **TestCase_12**: EMICalculator - Scale Change For Fees And Charges TextBox And Slider
+
+Scenario 4 : Validating Loan Amount Calculator UI
+13. **TestCase_13**: Loan Amount Calculator - Validating EMI TextBox and Slider
+14. **TestCase_14**: Loan Amount Calculator - Validating Interest Rate TextBox and slider
+15. **TestCase_15**: Loan Amount Calculator - Scale Change For Interest Rate TextBox And Slider
+16. **TestCase_16**: Loan Amount Calculator - Validating Loan Tenure TextBox and Slider
+17. **TestCase_17**: Loan Amount Calculator - Scale Change For Loan Tenure TextBox And Slider
+18. **TestCase_18**: Loan Amount Calculator - Validating Fees And Charges TextBox and Slider
+19. **TestCase_19**: Loan Amount Calculator - Validation For Year And Month Option
+20. **TestCase_20**: Loan Amount Calculator - Scale Change For Fees And Charges TextBox And Slider
+
+Scenario 5 : Validating Loan Tenure Calculator UI
+21. **TestCase_21**: Loan Tenure Calculator - Validating Loan Amount TextBox and Slider
+22. **TestCase_22**: Loan Tenure Calculator - Scale Change For Loan Amount TextBox And Slider
+23. **TestCase_23**: Loan Tenure Calculator - Validating EMI TextBox and Slider
+24. **TestCase_24**: Loan Tenure Calculator - Validating Interest Rate TextBox and Slider
+25. **TestCase_25**: Loan Tenure Calculator - Scale Change For Interest Rate TextBox And Slider
+26. **TestCase_26**: Loan Tenure Calculator - Validating Fees And Charges TextBox and Slider
+27. **TestCase_27**: Loan Tenure Calculator - Scale Change For Fees And Charges TextBox And Slider
+
+----
+
+Utility Classes---
+1. AddFluentWait.java - For adding fluent wait for various components and conditions
+2. WriteExcel.java - For Storing asked data in Excel sheet from the WebPage
+3. Assertions.java - For applying the assertions to the test Cases
+4. DataReader.java - For getting input from excel
+
+       
+Technologies Used---
+1. Java Programming Language
+2. Selenium Automation Tool
+3. Cucumber Framework
+4. AventStack
+5. Apache Log4j
+6. Apache POI
+ 
